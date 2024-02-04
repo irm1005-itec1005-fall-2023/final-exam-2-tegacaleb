@@ -38,6 +38,123 @@ body {
   background-color: #f7ead7;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header img {
+  width: 45px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+header a {
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  width: 120px;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+main .page-container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10rem 0 10rem 0;
+}
+main .content-squares {
+  display: grid; 
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+   gap: 0.5rem;
+   height: 100%; 
+   margin: 0 5rem 5rem 5rem;
+}
+
+main .content-squares .expo-1 {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 3;
+  background-color: rgb(206, 166, 255);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+main .content-squares .expo-2 {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  background-color: rgb(247, 188, 255);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+main .content-squares .expo-3 {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-column-end: 5;
+  background-color:rgb(255, 189, 200);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+main .content-squares .expo-4 {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-row-end: 2;
+  grid-column-end: 7;
+  background-color:rgb(181, 249, 255);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+main .content-squares .expo-5 {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 5;
+  background-color:rgb(160, 200, 255);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+main .content-squares .expo-6 {
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-row-start: 2;
+  grid-column-start: 5;
+  grid-row-end: 3;
+  grid-column-end: 7;
+  background-color:rgb(233, 192, 255);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
 /*
  * SR-ONLY
  */
