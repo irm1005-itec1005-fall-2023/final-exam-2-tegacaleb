@@ -155,6 +155,104 @@ main .content-squares .expo-6 {
   padding: 0.5rem;
 }
 
+main .intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  height: 100%;
+}
+
+main .intro .main-image {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-left: 1rem;
+}
+
+main .intro img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+main .intro .main-text {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+main .intro .main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .intro .main-text .secondary-btn {
+  margin: 1rem 0 0 0;
+  text-decoration: none;
+  background-color: rgb(255, 186, 223);
+  width: 120px;
+  padding: 1rem;
+  border-radius: 10px;
+  color: rgb(26, 26, 26);
+}
+
+main .showcase {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+
+main .my-work{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+main .my-work img{
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 10px;
+  border: 4px solid #333;
+}
+
+main .my-work ul {
+  list-style-type: none;
+}
+
+main .my-work .tut-3-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .my-work .tut-3-text li {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(147, 255, 255);
+  width: 80px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+main .my-work .tut-5-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .my-work .tut-5-text li {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(147, 255, 255);
+  width: 80px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
 /*
  * SR-ONLY
  */
