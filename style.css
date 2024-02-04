@@ -253,6 +253,71 @@ main .my-work .tut-5-text li {
   margin: 1rem;
 }
 
+main .my-work .tut-7-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .my-work .tut-7-text li {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(147, 255, 255);
+  width: 80px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+main .my-work .tut-9-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .my-work .tut-9-text li {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(147, 255, 255);
+  width: 110px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+main .contact {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(220, 182, 255);
+  margin: 1rem 5rem 3rem 5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  height: 100%; 
+}
+
+main .contact h2 {
+  margin-bottom: 1rem;
+}
+
+main .contact a {
+  margin: 1rem 0 0 0;
+  text-decoration: none;
+  background-color: rgb(85, 85, 85);
+  width: 120px;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+
+footer img {
+  width: 45px;
+}
+
+
 /*
  * SR-ONLY
  */
